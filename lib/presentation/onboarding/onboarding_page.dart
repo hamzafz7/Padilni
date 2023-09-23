@@ -56,14 +56,18 @@ int cnt = 0;
       GetHeight(height: Get.height*0.06), 
       Text("Splash Screen Image Preview",style: Theme.of(context).textTheme.bodyMedium,) ,
       GetHeight(height: Get.height*0.13),  
-      cnt ==2 ? CustomButton(onpressed: (){},
-        text: "Get Started",):
+      cnt ==2 ? CustomButton(onpressed: (){
+        Get.toNamed('/login');
+      },
+      child:Text("Get Started" , style: Theme.of(context).textTheme.bodyMedium!
+      .copyWith(color: AppColors.primaryColor),),):
        Row(
         children: [
           SkipButton(image: "assets/images/skip_icon.png", text: "Skip", 
           onTap: (){      
-
-          }, padding: EdgeInsets.fromLTRB(Get.width*0.13 , 0 , 0 , 0),),
+            Get.toNamed("/login");
+          }, 
+          padding: EdgeInsets.fromLTRB(Get.width*0.13 , 0 , 0 , 0),),
 
           const Spacer(),
 

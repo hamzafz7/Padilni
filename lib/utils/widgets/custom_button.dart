@@ -4,9 +4,9 @@ import 'package:padilni/utils/colors.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({super.key,
-  required this.onpressed,required this.text});
+  required this.onpressed,required this.child});
 final Function()? onpressed ;
-final String text;
+final Widget child;
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
@@ -16,8 +16,7 @@ final String text;
         minWidth: Get.width*0.75,
         height: Get.height*0.07,
         onPressed:onpressed ,
-      child: Text(text , style: Theme.of(context).textTheme.bodyMedium!
-      .copyWith(color: AppColors.primaryColor),),),
-    );
+      child: child,
+    ));
   }
 }
