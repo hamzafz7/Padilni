@@ -29,7 +29,7 @@ class Continuebutton extends StatelessWidget {
               ),
               height: Get.height*0.03,
               width: Get.width*0.06,
-              child: Image.asset(image),
+              child: Center(child: Image.asset(image)),
               ),
             ) ,
               Padding(

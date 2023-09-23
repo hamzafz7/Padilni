@@ -11,6 +11,7 @@ class AppColors
 
   static const Color fourthColor = Color(0xff707070);
 
+  static const Color fifthcolor = Color(0xff9143FF);
 
 
 }
