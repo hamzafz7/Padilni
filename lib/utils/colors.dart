@@ -19,5 +19,9 @@ class AppColors
 
   static const Color eighthColor = Color(0xffB6B7B7);
 
+  static const Color googleColor = Color(0xffDD4B39);
+
+  static const Color facebookColor = Color(0xff367FC0);
+
 
 }

@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:padilni/presentation/auth/login/controller/login_binding.dart';
 import 'package:padilni/presentation/auth/login/login_page.dart';
 import 'package:padilni/presentation/home/home_page.dart';
 import 'package:padilni/presentation/onboarding/onboarding_page.dart';
@@ -19,7 +20,8 @@ class AppRoutes
     GetPage(name: base, page: ()=>SplashScreen()) ,
     GetPage(name: home, page: ()=>HomePage()) ,
     GetPage(name: onboarding, page: ()=>OnBoardingPage()) , 
-    GetPage(name: login, page: ()=>LoginPage())
+    GetPage(name: login, page: ()=>LoginPage(),
+    binding: LoginBindings())
 
 
   ];

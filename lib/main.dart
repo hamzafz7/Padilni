@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:padilni/presentation/splashscreen/splash_screen.dart';
+import 'package:padilni/presentation/auth/signup/sign_up_page.dart';
 import 'package:padilni/utils/routes/app_routes.dart';
 import 'package:padilni/utils/themes.dart';
 
@@ -18,7 +18,7 @@ const MyApp({super.key});
       theme: theme,
       getPages: AppRoutes.appRoutes,
       debugShowCheckedModeBanner: false,
-      home: SplashScreen()
+      home: SignUpPage()
     );
   }
 }

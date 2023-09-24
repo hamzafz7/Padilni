@@ -56,7 +56,9 @@ int cnt = 0;
       GetHeight(height: Get.height*0.06), 
       Text("Splash Screen Image Preview",style: Theme.of(context).textTheme.bodyMedium,) ,
       GetHeight(height: Get.height*0.13),  
-      cnt ==2 ? CustomButton(onpressed: (){
+      cnt ==2 ? CustomButton(
+        buttomColor: AppColors.secondaryColor,
+        onpressed: (){
         Get.toNamed('/login');
       },
       child:Text("Get Started" , style: Theme.of(context).textTheme.bodyMedium!

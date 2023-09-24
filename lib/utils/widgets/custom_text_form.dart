@@ -30,6 +30,7 @@ class CustomFormField extends StatelessWidget {
             children: [
               Expanded(
                 child: TextFormField(
+                  style: TextStyle(fontSize: Get.width*0.04),
                   decoration: InputDecoration(
                     hintText: hinttext ,
                     hintStyle:Theme.of(context).textTheme.bodySmall!.copyWith(color: AppColors.eighthColor),

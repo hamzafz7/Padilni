@@ -7,7 +7,7 @@ final String text;
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Text("Login",style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+      title: Text(text,style: Theme.of(context).textTheme.bodyMedium!.copyWith(
         fontWeight: FontWeight.w600
       ),), 
       centerTitle: true,
