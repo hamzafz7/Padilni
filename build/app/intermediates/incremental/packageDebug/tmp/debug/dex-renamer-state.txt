@@ -1,4 +1,0 @@
-#Sat Sep 23 13:48:54 PDT 2023
-base.0=C\:\\Users\\LENOVO\\Desktop\\Freelance_projects\\Padlni\\padilni\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
