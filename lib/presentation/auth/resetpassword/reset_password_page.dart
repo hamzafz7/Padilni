@@ -17,47 +17,54 @@ var emailController = TextEditingController();
   Widget build(BuildContext context) {
     return Scaffold(
        appBar: const CustomAppBar(text: "Reset Password"),
-       body: Column(children: [ 
-        GetHeight(height: Get.height*0.06),
-          Center(
-            child: Column(
-              children: [
-                Text("Please enter your email to receive a ", 
-                style: Theme.of(context).textTheme.bodySmall,),
-                Text("link to create a new password via email",
-                 style: Theme.of(context).textTheme.bodySmall)  
-              ],
-            ),
-          ) ,  
-          GetHeight(height: Get.height*0.01),
-          CustomFormField(hinttext: "Your Email", controller: emailController, 
-          validator: (){} , 
-          suffix: Icons.email,) , 
-
-          GetHeight(height: Get.height*0.04), 
-           SizedBox( 
-            width: Get.width*0.87,
-            child: CustomButton(
-              buttomColor:AppColors.fifthcolor,
-              onpressed: (){}, child: Row(
-              children:[ 
-                GetWidth(width: Get.width*0.33),
-              Text("Send" , style: Theme.of(context).textTheme.bodyMedium!
-        .copyWith(color: AppColors.primaryColor),),
-              GetWidth(width: Get.width*0.16), 
-               SizedBox( 
-                        height: Get.height*0.026,
-                        child:const  VerticalDivider(
-                          color: AppColors.seventhColor,
-                        )),
-                        GetWidth(width: Get.width*0.025),
-              SvgPicture.asset("assets/images/send_icon.svg")
-                 ] )), 
-          ) ,  
-          Image.asset("assets/images/verification_image.png")
-
-
-       ],),
+       body: SingleChildScrollView(
+         child: Column(children: [ 
+          GetHeight(height: Get.height*0.06),
+            Center(
+              child: Column(
+                children: [
+                  Text("Please enter your email to receive a ", 
+                  style: Theme.of(context).textTheme.bodySmall,),
+                  Text("link to create a new password via email",
+                   style: Theme.of(context).textTheme.bodySmall)  
+                ],
+              ),
+            ) ,  
+            GetHeight(height: Get.height*0.01),
+            CustomFormField(hinttext: "Your Email", controller: emailController, 
+            validator: (){} , 
+            suffix: Icons.email,) , 
+       
+            GetHeight(height: Get.height*0.04), 
+             SizedBox( 
+              
+              width: Get.width*0.87,
+              child: CustomButton(
+                buttomColor:AppColors.fifthcolor,
+                onpressed: (){}, child: Row(
+                children:[ 
+                  GetWidth(width: Get.width*0.33),
+                Text("Send" , style: Theme.of(context).textTheme.bodyMedium!
+          .copyWith(color: AppColors.primaryColor),),
+                GetWidth(width: Get.width*0.16), 
+                 SizedBox( 
+                          height: Get.height*0.026,
+                          child:const  VerticalDivider(
+                            color: AppColors.seventhColor,
+                          )),
+                          GetWidth(width: Get.width*0.025),
+                SvgPicture.asset("assets/images/send_icon.svg")
+                   ] )), 
+            ) ,   
+            GetHeight(height: Get.height*0.09),
+            Padding(
+              padding:  EdgeInsets.all(Get.width*0.08),
+              child: Image.asset("assets/images/reset_image.png"),
+            )
+       
+       
+         ],),
+       ),
     ); 
   }
 }

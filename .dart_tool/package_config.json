@@ -86,6 +86,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "flutter_otp_text_field",
+      "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_otp_text_field-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_svg",
       "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_svg-2.0.7",
       "packageUri": "lib/",
@@ -212,6 +218,18 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "pin_code_fields",
+      "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/pin_code_fields-8.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "pinput",
+      "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/pinput-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
       "name": "platform",
       "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/platform-3.1.2",
       "packageUri": "lib/",
@@ -272,6 +290,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "smart_auth",
+      "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/smart_auth-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
       "name": "smooth_page_indicator",
       "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/smooth_page_indicator-1.1.0",
       "packageUri": "lib/",
@@ -318,6 +342,12 @@
       "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/typed_data-1.3.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "universal_platform",
+      "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/universal_platform-1.0.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "vector_graphics",
@@ -368,7 +398,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-09-26T14:44:46.051065Z",
+  "generated": "2023-09-26T16:31:27.337455Z",
   "generator": "pub",
   "generatorVersion": "3.0.5"
 }
